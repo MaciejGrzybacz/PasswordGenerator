@@ -1,4 +1,4 @@
-#include "Generator.h"
+#include "generator.h"
 
 Generator::Generator(QObject* parent)
     : QObject(parent), length(8), includeLowercases(true), includeUppercases(false), includeNumbers(false), includeSymbols(false), easyToRead(false), easyToSay(false), allChars(true){}
